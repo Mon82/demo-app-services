@@ -19,6 +19,8 @@ env:
   CONTAINER_NAME: demo-app-services                             # set this to the name of the container in the
                                                                 # containerDefinitions section of your task definition
 
+  IMAGE_TAG: demo-app-service-container
+
 defaults:
   run:
     shell: bash
